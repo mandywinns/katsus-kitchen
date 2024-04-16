@@ -1,1 +1,0 @@
-this project is a website that will be built from HTML. it will include links that will direct the user to the recipes, as well as a main index page. This project will allow me to demonstrate what I have learned so far from The Odin Project. 

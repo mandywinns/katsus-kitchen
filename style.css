@@ -1,0 +1,35 @@
+#katsu {
+    background-color:#336336;
+    color: white;
+    font-family:"Georgia","Arial", sans-serif;
+    font-size:36px;
+    font-weight:bold;
+    text-align:center
+}
+
+#kata {
+    background-color:#336336;
+    text-align:center;
+    color:white;
+    font-size:36px
+}
+
+.chef-katsu {
+    text-align:center;
+}
+
+
+.description {
+    text-align:center;
+    font-size: 24px;
+    font-family:"Georgia", "Arial", sans-serif;
+
+}
+
+ul {
+    text-align:center;
+    font-size: 24px;
+    background-color:hsl(118, 38%, 69%);
+    font-family:"Arial", "Georgia", sans-serif;
+    color:white
+}

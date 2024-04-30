@@ -1,0 +1,45 @@
+.ca-kho-to {
+    background-color:#336336;
+    color: white;
+    font-family:"Georgia","Arial", sans-serif;
+    font-size:36px;
+    font-weight:bold;
+    text-align:center
+}
+
+.family {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    background-color:#336336;
+    color:white
+}
+
+.tradition {
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center
+}
+
+.tradition.two {
+    text-align:center
+}
+
+.enjoy {
+    font-size:30px;
+    font-weight:bold;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#comfort-food {
+    text-align:center
+}
+
+ol {
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+ul {
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif
+}

@@ -1,0 +1,56 @@
+#pork-chops {
+    background-color:#336336;
+    color: white;
+    font-family:"Georgia","Arial", sans-serif;
+    font-size:36px;
+    font-weight:bold;
+    text-align:center
+}
+
+
+.porkchop {
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center
+}
+
+
+.lemongrass {
+    background-color:#336336;
+    color: white;
+    font-family:"Georgia","Arial", sans-serif;
+    font-size:20px;
+    font-weight:bold;
+    text-align:center
+    
+}
+
+.ingredients {
+    font: size 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    background-color:#8bb38e;
+}
+
+.enjoy {
+    text-align:bold;
+    font-size:30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.vietnamese {
+    text-align:center
+}
+
+
+
+ul {
+    font: size 16px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+ol {
+    font: size 16px;
+    font-family:Arial, Helvetica, sans-serif
+}
+

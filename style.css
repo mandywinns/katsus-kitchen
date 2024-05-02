@@ -1,21 +1,32 @@
+* {
+    background-color:#f5f5f5
+}
+
 #katsu {
     background-color:#336336;
     color: white;
     font-family:"Georgia","Arial", sans-serif;
     font-size:36px;
     font-weight:bold;
-    text-align:center
+    text-align:center;
+    margin:60px;
+    padding:20x
 }
 
 #kata {
     background-color:#336336;
     text-align:center;
     color:white;
-    font-size:36px
+    font-size:36px;
+    margin:30px;
+    padding:10px
 }
 
 .chef-katsu {
     text-align:center;
+    border:4px dotted #336336;
+    margin:30px;
+    padding:20px
 }
 
 
@@ -23,13 +34,20 @@
     text-align:center;
     font-size: 24px;
     font-family:"Georgia", "Arial", sans-serif;
+    margin:30px
 
 }
 
 ul {
+    display:grid;
+    list-style:none;
     text-align:center;
     font-size: 24px;
-    background-color:hsl(118, 38%, 69%);
     font-family:"Arial", "Georgia", sans-serif;
-    color:white
+    color:white;
+    margin:30px;
+    margin-top:30px;
+    margin-bottom:30px;
+    padding:10px;
+    border:4px dotted #336336
 }

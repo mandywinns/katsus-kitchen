@@ -1,16 +1,28 @@
-* {
-    background-color:#f5f5f5
+body {
+    background-color:#f5f5f5;
+    display:flex;
+    flex:1
 }
 
-#katsu {
-    background-color:#336336;
-    color: white;
-    font-family:"Georgia","Arial", sans-serif;
-    font-size:36px;
-    font-weight:bold;
-    text-align:center;
-    margin:60px;
-    padding:20x
+.header {
+    display:flex;
+    justify-content:center;
+    flex-shrink:0
+}
+
+
+.big {
+    display:flex;
+    justify-items:center;
+    flex-direction:column;
+    gap:8px;
+    padding:8px;
+
+}
+
+.pic {
+    display:flex;
+    justify-content:center
 }
 
 #kata {
@@ -22,32 +34,44 @@
     padding:10px
 }
 
-.chef-katsu {
+.katsu {
+    background-color:#336336;
+    color: white;
+    font-family:"Georgia","Arial", sans-serif;
+    font-size:36px;
+    font-weight:bold;
     text-align:center;
-    border:4px dotted #336336;
-    margin:30px;
-    padding:20px
+    width: 200px;
+    height:100%
 }
 
+
+
+
+
+.recipes {
+    background-color:white;
+    font-size:20px;
+    padding:10px;
+   
+}
+
+.links {
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+    justify-content: center;
+}
 
 .description {
     text-align:center;
-    font-size: 24px;
+    font-size: 20px;
     font-family:"Georgia", "Arial", sans-serif;
-    margin:30px
+    margin:16px
 
 }
 
-ul {
-    display:grid;
-    list-style:none;
-    text-align:center;
-    font-size: 24px;
-    font-family:"Arial", "Georgia", sans-serif;
-    color:white;
-    margin:30px;
-    margin-top:30px;
-    margin-bottom:30px;
-    padding:10px;
-    border:4px dotted #336336
+a {
+    text-decoration:none;
+    color:green
 }

@@ -1,6 +1,13 @@
-* {
-    background-color:#f5f5f5
+body {
+    background-color:#f5f5f5;
 }
+
+
+.recipe-container {
+    display:flex;
+    flex-direction:column
+}
+
 
 .ca-kho-to {
     background-color:#336336;
@@ -9,9 +16,8 @@
     font-size:36px;
     font-weight:bold;
     text-align:center;
-    margin:60px;
-    padding:10px
 }
+
 
 .family {
     font-family:Arial, Helvetica, sans-serif;
@@ -42,7 +48,6 @@
 
 #comfort-food {
     text-align:center;
-    border:4px dotted #336336;
     margin:60px;
     padding:20px
 }

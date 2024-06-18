@@ -1,32 +1,91 @@
 body {
-    background-color:#f5f5f5;
+    background-color:#EADBC8;
+    margin:0
 }
 
+.home {
+    background-color:#B5C18E;
+    height:160px;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom:30px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+
+}
+
+ .sidebar {
+    background-color: #f1f1f1;
+    border-radius:10px;
+    display:flex;
+    gap:60px;
+    flex-direction:column;
+    height:800px;
+    width:700px;
+
+ }
+
+.description {
+    background-color:#B5C18E;
+    color:white;
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    padding:30px;
+}
+
+.fish {
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+    padding:20px;
+}
 
 .recipe-container {
-    display:flex;
-    flex-direction:column
+    background-color:#f1f1f1;
+    border-radius:10px;
+    width:600px;
 }
 
+.container-one {
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+
+}
 
 .ca-kho-to {
-    background-color:#336336;
     color: white;
-    font-family:"Georgia","Arial", sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     font-size:36px;
     font-weight:bold;
-    text-align:center;
+    background-color:#B5C18E;
+    height:100px;
+    display:flex;
+    align-items:flex-end;
+    border-radius: 10px 10px 0 0; 
+    padding:10px;
 }
-
 
 .family {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:20px;
-    background-color:#336336;
+    background-color:#B5C18E;
     color:white;
-    margin:20px;
-    padding:5px
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius:10px;
+    height:40px;
+    font-weight:bold;
+    font-size:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+} 
+
+.goldendoodle {
+    height:400PX;
+    width:400px;
 }
+
 
 .tradition {
     font-size:16px;
@@ -40,10 +99,19 @@ body {
 }
 
 .enjoy {
-    font-size:30px;
+    font-size:26px;
     font-weight:bold;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin:10px
+    color:white;
+    background-color:#B5C18E;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:10px;
+    height:60px;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:500px;
+
 }
 
 #comfort-food {
@@ -52,14 +120,71 @@ body {
     padding:20px
 }
 
+.steps {
+    background-color:#f1f1f1;
+    margin-top:30px;
+    border-radius: 10px 
+   
+}
+
+.the-steps {
+    background-color:#B5C18E;
+    color:white;
+    font-size:30px;
+    height:60px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    display:flex;
+    align-items:flex-end;
+    padding-left:30px;
+    border-radius: 10px 10px 0 0; 
+}
+
+.conclusion {
+    display:flex;
+    align-items:center;
+    flex-direction:column
+}
+
+
+.footer {
+    background-color:#B5C18E;
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top:30px
+}
+
+
+
+
 ol {
     font-size:16px;
     font-family:Arial, Helvetica, sans-serif;
-    margin:20px
+    color:white;
+    background-color:#B5C18E;
+    width:800px;
+    border-radius:10px;
+    padding:30px
 }
 
 ul {
     font-size:16px;
     font-family:Arial, Helvetica, sans-serif;
-    margin:20px
+    list-style-type:square;
+    text-align: left;
+    color:white;
+    background-color:#B5C18E;
+    border-radius:10px;
+    height:200px;
+    padding:30px;
+    padding-left:60px;
+}
+
+img {
+    border-radius:10px;
 }

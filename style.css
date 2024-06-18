@@ -30,30 +30,22 @@ body {
 .recipes-container {
     background-color:#F1F1F1;
     width:500px;
+    height:auto;
     display:flex;
     flex-direction:column;
     align-items:center;
-    padding:20px;
     border-radius:10px;
+    gap:60px;
 }
 
 
 .container {
     background-color:#EADBC8;
-    height:600px;
+    height:1000px;
     display:flex;
     flex-direction:row;
     gap:100px;
     padding:20px;
-    justify-content:center;
-}
-
-.kata-container {
-    background-color:#B5C18E;
-    height:50px;
-    width:400px;
-    display:flex;
-    align-items:center;
     justify-content:center;
 }
 
@@ -62,6 +54,7 @@ body {
     justify-content:center;
     align-items:center;
     border-radius:10px;
+    height:auto;
 }
 
 #kata {
@@ -69,6 +62,13 @@ body {
     font-size:30px;
     font-weight:bold;
     font-family:Arial, Helvetica, sans-serif;
+    background-color:#B5C18E;
+    border-radius:10px;
+    height:100px;
+    display:flex;
+    align-items:flex-end;
+    width:500px;
+    border-radius: 10px 10px 0 0;
 }
 
 
@@ -114,7 +114,7 @@ body {
     align-items:center;
     width:300px;
     height:400px;
-    gap:10px;
+    gap:80px
 
 }
 
@@ -168,8 +168,10 @@ body {
 }
 
 
+
 li {
     list-style-type: none;
+
 }
 
 
@@ -179,6 +181,7 @@ button {
     font-weight:bold;
     width:60px;
     height:30px;
+    background-color:#EADBC8;
 
 }
 
@@ -186,4 +189,8 @@ button {
 a {
     text-decoration:none;
     color:black;
+}
+
+img {
+    border-radius:10px;
 }

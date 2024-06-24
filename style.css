@@ -5,81 +5,26 @@ body {
     flex-direction:column;
 }
 
-.navigate {
-    list-style-type:none;
-    color:white;
-    font-size:20px;
-    font-family:Arial, Helvetica, sans-serif;
-    display:flex;
-    flex-direction:row;
-    gap:20px
-}
-
-.chef-bap {
-    display:flex;
-    flex-direction:row;
-    gap:10px;
-}
-
-.introduction {
-    background-color:#F1F1F1;
-    width:500px;
-    padding:30px;
-}
-
-.recipes-container {
-    background-color:#F1F1F1;
-    width:500px;
-    height:auto;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    border-radius:10px;
-    gap:60px;
-}
-
-
-.container {
-    background-color:#EADBC8;
-    height:1000px;
-    display:flex;
-    flex-direction:row;
-    gap:100px;
-    padding:20px;
-    justify-content:center;
-}
-
-.introduction {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    border-radius:10px;
-    height:auto;
-}
-
-#kata {
-    color:white;
-    font-size:30px;
-    font-weight:bold;
-    font-family:Arial, Helvetica, sans-serif;
-    background-color:#B5C18E;
-    border-radius:10px;
-    height:100px;
-    display:flex;
-    align-items:flex-end;
-    width:500px;
-    border-radius: 10px 10px 0 0;
-}
-
 
 .header {
     background-color:#B5C18E;
     height:160px;
-    gap:800px;
+    gap:700px;
     display:flex;
     justify-content:flex-start;
     align-items:flex-end;
+    padding:10px;
 
+}
+
+.navigate {
+    list-style-type:none;
+    color:white;
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction:row;
+    gap:20px
 }
 
 .katsu {
@@ -92,17 +37,98 @@ body {
 
 
 
+.who {
+    background-color:#B5C18E;
+    color:white;
+    display:flex;
+    align-items:flex-end;
+    height:100px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:10px;
+    font-size:36px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight:500;
+}
+
+
+
+.chef-bap {
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+    align-items:center;
+    height:700px;
+    padding:30px;
+}
+
+
+
+.introduction {
+    background-color:#F1F1F1;
+    width:500px;
+    display:flex;
+    border-radius:10px;
+    height:auto;
+    flex-direction:column;
+
+
+}
+
+
+.recipes-container {
+    background-color:#F1F1F1;
+    width:500px;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    border-radius:10px;
+}
+
+
+
+.container {
+    background-color:#EADBC8;
+    height:1000px;
+    display:flex;
+    flex-direction:row;
+    gap:100px;
+    padding:20px;
+    justify-content:center;
+}
+
+
+.kata {
+    color:white;
+    font-size:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#B5C18E;
+    height:100px;
+    display:flex;
+    align-items:flex-end;
+    border-radius: 10px 10px 0 0;
+    padding:6px;
+    
+}
+
+
+
+
+
+
+
 .description {
-    font-size: 18px;
+    font-size: 16px;
     font-family:Arial, Helvetica, sans-serif;
     color:white;
     background-color:#B5C18E;
     border-radius:10px;
     display:flex;
     align-items:center;
-    padding:6px;
+    padding:10px;
     justify-content:center;
-    font-weight:bold
+    font-weight:500;
+    text-align:center
 }
 
 
@@ -128,6 +154,9 @@ body {
     align-items:center;
 }
 
+
+
+
 .banner {
     width:600px;
     height:100px;
@@ -141,6 +170,8 @@ body {
 }
 
 
+
+
 .sign-up {
     color:white;
     font-size:14px;
@@ -149,12 +180,16 @@ body {
 }
 
 
+
+
 .connected {
     color:white;
     font-size:14px;
     font-weight:700;
     font-family:Arial, Helvetica, sans-serif;
 }
+
+
 
 .footer {
     background-color:#B5C18E;
@@ -190,6 +225,8 @@ a {
     text-decoration:none;
     color:black;
 }
+
+
 
 img {
     border-radius:10px;

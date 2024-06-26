@@ -1,6 +1,6 @@
 body {
     background-color:#EADBC8;
-    margin:0
+    margin:0;
 }
 
 .home {
@@ -24,7 +24,10 @@ body {
     height:800px;
     width:700px;
 
+
  }
+
+
 
 .description {
     background-color:#B5C18E;
@@ -33,6 +36,8 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     border-radius: 10px;
     padding:30px;
+    width:max-content
+
 }
 
 .fish {
@@ -45,7 +50,8 @@ body {
 .recipe-container {
     background-color:#f1f1f1;
     border-radius:10px;
-    width:600px;
+    width:700px;
+    height:800px;
 }
 
 .container-one {
@@ -56,11 +62,24 @@ body {
 
 }
 
+.prep {
+    color:white;
+    list-style-type:none;
+    font-size:36px;
+    display:flex;
+    flex-direction:row;
+    background-color:#B5C18E;
+    text-decoration: none;
+    gap:20px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
 .ca-kho-to {
     color: white;
     font-family:Arial, Helvetica, sans-serif;
     font-size:36px;
-    font-weight:bold;
+    font-weight:500;
     background-color:#B5C18E;
     height:100px;
     display:flex;
@@ -73,13 +92,15 @@ body {
     background-color:#B5C18E;
     color:white;
     font-family:Arial, Helvetica, sans-serif;
-    border-radius:10px;
-    height:40px;
-    font-weight:bold;
-    font-size:20px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    height:100px;
+    font-weight:500;
+    font-size:36px;
     display:flex;
-    justify-content:center;
-    align-items:center;
+    justify-content:flex-start;
+    align-items:flex-end;
+    padding:10px
 } 
 
 .goldendoodle {
@@ -88,16 +109,9 @@ body {
 }
 
 
-.tradition {
-    font-size:16px;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align:center;
-    margin:20px
-}
 
-.tradition.two {
-    text-align:center
-}
+
+
 
 .enjoy {
     font-size:26px;
@@ -115,42 +129,36 @@ body {
 
 }
 
-#comfort-food {
-    text-align:center;
-    margin:60px;
-    padding:20px
-}
 
 .steps {
     background-color:#f1f1f1;
     margin-top:30px;
     border-radius: 10px;
     width:1180px;
-    margin-left:40px
    
 }
 
 .the-steps {
     background-color:#B5C18E;
     color:white;
-    font-size:30px;
-    height:60px;
+    font-size:36px;
+    height:100px;
     font-family:Arial, Helvetica, sans-serif;
-    font-weight:bold;
+    font-weight:500;
     display:flex;
     align-items:flex-end;
-    padding-left:30px;
     border-radius: 10px 10px 0 0; 
 }
 
 .conclusion {
     display:flex;
     align-items:center;
-    flex-direction:column
+    flex-direction:column;
+    padding:20px
 }
 
 
-.footer {
+.katsus-kitchen {
     background-color:#B5C18E;
     height:100px;
     display:flex;
@@ -163,6 +171,13 @@ body {
 }
 
 
+.container-two {
+    display:flex;
+    flex-direction: column;
+    padding:30px;
+    background-color:#EADBC8;
+}
+
 
 
 ol {
@@ -170,7 +185,6 @@ ol {
     font-family:Arial, Helvetica, sans-serif;
     color:white;
     background-color:#B5C18E;
-    width:800px;
     border-radius:10px;
     padding:30px
 }

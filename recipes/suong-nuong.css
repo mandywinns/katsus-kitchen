@@ -20,6 +20,7 @@
     gap:30px;
     padding:20px;
     background-color:#EADBC8;
+    justify-content: center;
 }
 
 .recipe-card {

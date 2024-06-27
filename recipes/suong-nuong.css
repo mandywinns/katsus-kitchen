@@ -1,56 +1,192 @@
-#pork-chops {
-    background-color:#336336;
-    color: white;
-    font-family:"Georgia","Arial", sans-serif;
-    font-size:36px;
-    font-weight:bold;
-    text-align:center
+* {
+    margin:0;
 }
 
+.home {
+    background-color:#B5C18E ;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    height:100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding:20px
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+    padding:20px;
+    background-color:#EADBC8;
+}
+
+.recipe-card {
+    background-color:#f1f1f1;
+    height:800px;
+    width:700px;
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+}
+
+.pork-chops {
+    background-color:#B5C18E;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:26px;
+    font-weight:500px;
+    padding:20px;
+    display:flex;
+    align-items:flex-end;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.ingredients-card {
+    background-color:#f1f1f1;
+    height:800px;
+    width:600px;
+    border-radius:10px
+}
+
+
+.mini-container {
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+    align-items:center;
+    padding:20px;
+    margin-top:20px
+}
 
 .porkchop {
-    font-size:16px;
+    border-radius:10px;
+    background-color:#B5C18E;
+    color:white;
     font-family:Arial, Helvetica, sans-serif;
-    text-align:center
+    font-size:16px;
+    font-weight:500;
+    padding:20px
+}
+
+.prep {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height:400px;
+}
+
+.prep-time {
+    background-color:#B5C18E;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    list-style-type: none;
+    gap:20px;
+    border-radius: 10px;
+    width: auto;
+    padding:10px
 }
 
 
-.lemongrass {
-    background-color:#336336;
-    color: white;
-    font-family:"Georgia","Arial", sans-serif;
-    font-size:20px;
-    font-weight:bold;
-    text-align:center
-    
+
+
+.container-small {
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    margin-top: 20px;
+
+
 }
 
 .ingredients {
-    font: size 16px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight:bold;
-    background-color:#8bb38e;
+    color:#B5C18E;
+    font-weight: 600;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
 }
+
+.steps {
+    background-color: #f1f1f1;
+    height:500px;
+    width:1230px;
+    border-radius:10px;
+}
+
+.container-two {
+    background-color:#EADBC8;
+    display:flex;
+    align-items:center;
+    height:600px;
+    justify-content: center;
+} 
 
 .enjoy {
-    text-align:bold;
-    font-size:30px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #B5C18E;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    width:max-content;
+    padding:10px;
+    border-radius: 10px;
 }
 
-.vietnamese {
-    text-align:center
+.container-four {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    flex-direction:column;
+    gap:20px
 }
+
+
+.footer {
+    background-color:#B5C18E;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display:flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+
+
+
+ol {
+    background-color:#B5C18E;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+} 
+
 
 
 
 ul {
-    font: size 16px;
-    font-family:Arial, Helvetica, sans-serif
+    background-color: #B5C18E;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    width:300px
 }
 
-ol {
-    font: size 16px;
-    font-family:Arial, Helvetica, sans-serif
-}
 
+img {
+    border-radius: 10px;
+}
